@@ -7,7 +7,7 @@ const PORT = 4000;
 
 let mongoURL;
 if (process.env.ENV === 'Docker') {
-  mongoURL = 'mongodb://mongo:27017';
+  mongoURL = 'mongodb://mongodb:27017';
 } else {
   mongoURL = 'mongodb://127.0.0.1:27017';
 }
